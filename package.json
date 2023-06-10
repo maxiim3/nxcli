@@ -1,6 +1,6 @@
 {
-  "name": "next-cli",
-  "version": "0.0.1",
+  "name": "nxcli",
+  "version": "0.0.2",
   "description": "A CLI tool for Next.js",
   "main": "index.js",
   "type": "module",
@@ -8,12 +8,17 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
+  "files": [
+    "index.js",
+    "app/**/*"
+  ],
   "bin": {
-    "next-cli": "./index.js"
+    "nxcli": "./index.js"
   },
   "dependencies": {
     "fs": "^0.0.2",
     "inquirer": "^7.3.3",
+    "nxcli-next-cli": "^0.0.1",
     "path": "^0.12.7",
     "yargs": "^17.3.0"
   },
